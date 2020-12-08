@@ -20,8 +20,8 @@ End the program
 Program extructure
 <br>
 <code>
-    PROGRAM
-      // PLC Program
+    PROGRAM<br>
+      // PLC Program<br>
     END_PROGRAM
 </code>
 <br>
