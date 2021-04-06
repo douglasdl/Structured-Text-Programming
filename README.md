@@ -94,11 +94,52 @@ Constants declaration scope
 
 ## IF  
 <pre><code>
-    IF isON THEN  
-        status := 1;    
-    ELSE  
-        status := 0;
+    IF condition THEN  
+        action;    
     END_IF;  
 </code></pre>  
   
+## IF/ELSE  
+<pre><code>
+    IF condition THEN  
+        action1;    
+    ELSE  
+        action2;
+    END_IF;  
+</code></pre>  
+  
+## IF/ELSE IF/ELSE  
+<pre><code>
+    IF condition1 THEN  
+        action1;    
+    ELSIF condition2 THEN  
+        action2;    
+    ELSE
+        action3;
+    END_IF;  
+</code></pre> 
+
+## WHILE  
+<pre><code>
+    WHILE condition DO  
+        action;    
+    END_WHILE;  
+</code></pre>  
+  
+## REPEAT  
+<pre><code>
+    REPEAT  
+        action;    
+    UNTIL condition END_REPEAT;  
+</code></pre>  
+  
+## EXIT  
+<pre><code>
+    EXIT;  
+</code></pre>  
+  
+## RETURN  
+<pre><code>
+    RETURN;  
+</code></pre>  
   
