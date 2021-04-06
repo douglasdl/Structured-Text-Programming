@@ -93,12 +93,12 @@ Constants declaration scope
 <br>
 
 ## IF  
-<code><pre>
+<pre><code>
     IF isON THEN  
         status := 1;    
     ELSE  
         status := 0;
     END_IF;  
-</pre></code>  
+</code></pre>  
   
   
