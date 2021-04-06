@@ -1,4 +1,4 @@
-# Structured-Text-Programming
+# Structured Text Programming
 
   
 Begin the program
@@ -135,5 +135,20 @@ Can be used inside FOR, WHILE, or REPEAT loops.
 ## RETURN  
 <pre><code>
     RETURN;  
-</code></pre>  
+</code></pre>
+
+## Function Block
+Traffic Signal Example
+<pre><code>
+    FUNCTION_BLOCK TrafficSignal
+        VAR_INPUT
+            status:INT;
+        END_VAR
+        VAR_OUTPUT
+            green:BOOL;
+            yellow:BOOL;
+            red:BOOL;
+        END_VAR
+    END_FUNCTION_BLOCK
+</code></pre>
   
