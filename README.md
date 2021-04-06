@@ -1,97 +1,68 @@
 # Structured-Text-Programming
 
-<br>
+  
 Begin the program
-<br>
-<code>
+<pre><code>
     PROGRAM
-</code>
-<br>
-
-<br>
-End the program
-<br>
-<code>
+</code></pre> 
+  
+End the program  
+<pre><code>
     END_PROGRAM
-</code>
-<br>
-
-<br>
+</code></pre> 
+  
 Program extructure
-<br>
-<code>
+<pre><code>
     PROGRAM<br>
       // PLC Program<br>
     END_PROGRAM
-</code>
-<br>
-
-<br>
-1 line comment
-<br>
-<code>
+</code></pre> 
+  
+1 line comment  
+<pre><code>
     // comment
-</code>
-<br>
-
-<br>
+</code></pre> 
+  
 1 line comment
-<br>
-<code>
+<pre><code>
     <statement>; /* comment */
-</code>
-<br>
-
-<br>
+</code></pre> 
+    
 1 line comment
-<br>
-<code>
+<pre><code>
     <statement>; (* comment *)
-</code>
-<br>
-
-<br>
+</code></pre> 
+  
 Multi-line comment
-<br>
-<code>
+<pre><code>
     /* multi-line
     comment */
-</code>
-<br>
-
-<br>
+</code></pre> 
+  
 Multi-line comment
-<br>
-<code>
+<pre><code>
     (* multi-line
     comment *)
-</code>
-<br>
-
-<br>
+</code></pre> 
+  
 Variables declaration scope
-<br>
-<code>
+<pre><code>
     VAR
         myVar : INT;
         myVar2 : REAL;
         myVar3 : STRING[255];
         myVar4 : BOOL;
     END_VAR
-</code>
-<br>
-
-<br>
+</code></pre> 
+  
 Constants declaration scope
-<br>
-<code><pre>
+<pre><code>
     CONSTANT
         myConstant : INT := 10;
         myConstant2 : REAL := 10.2;
     END_VAR
-</pre></code>
-<br>
-
+</code></pre> 
+  
 ## IF  
 <pre><code>
     IF condition THEN  
