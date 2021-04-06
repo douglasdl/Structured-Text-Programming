@@ -84,10 +84,21 @@ Variables declaration scope
 <br>
 Constants declaration scope
 <br>
-<code>
+<code><pre>
     CONSTANT
         myConstant : INT := 10;
         myConstant2 : REAL := 10.2;
     END_VAR
-</code>
+</pre></code>
 <br>
+
+## IF  
+<code><pre>
+    IF isON THEN  
+        status := 1;    
+    ELSE  
+        status := 0;
+    END_IF;  
+</pre></code>  
+  
+  
