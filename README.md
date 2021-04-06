@@ -95,10 +95,20 @@ Constants declaration scope
     CASE status OF  
         1:
             action1;
-        2:
-            action2;    
+        2, 4:
+            action2;
+    ELSE
+        action3;
     END_CASE;  
 </code></pre> 
+
+## FOR  
+<pre><code>
+    FOR i:=0 TO 10 BY 1 DO  
+        action;    
+    END_FOR;  
+</code></pre>  
+
 
 ## WHILE  
 <pre><code>
@@ -111,10 +121,13 @@ Constants declaration scope
 <pre><code>
     REPEAT  
         action;    
-    UNTIL condition END_REPEAT;  
+    UNTIL 
+        condition 
+    END_REPEAT;  
 </code></pre>  
   
 ## EXIT  
+Can be used inside FOR, WHILE, or REPEAT loops.  
 <pre><code>
     EXIT;  
 </code></pre>  
