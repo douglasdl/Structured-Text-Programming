@@ -90,6 +90,16 @@ Constants declaration scope
     END_IF;  
 </code></pre> 
 
+## CASE  
+<pre><code>
+    CASE status OF  
+        1:
+            action1;
+        2:
+            action2;    
+    END_CASE;  
+</code></pre> 
+
 ## WHILE  
 <pre><code>
     WHILE condition DO  
